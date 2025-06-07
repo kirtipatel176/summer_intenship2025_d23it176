@@ -91,16 +91,21 @@ I worked as a **Full Stack Web Development Intern**, where I gained hands-on exp
   🔧 Set up GitHub repository and mastered Markdown for documentation and project structure.
 
 - **📅 14 May (Wed):**  
-  🌐 Explored HTML5 semantic tags, created accessible forms, and structured static web pages with best practices.
+  🌐 Explored HTML5 semantic tags, created accessible forms, and structured static web pages with best practices using React.js components.
 
 - **📅 15 May (Thu):**  
-  🎨 Applied CSS fundamentals including selectors, box model, and styling properties to build visually consistent layouts.
+  ⚛️ Learned React.js fundamentals: JSX syntax, components, props, and state management basics.  
+  🎨 Applied CSS fundamentals including selectors, box model, and styling properties to build visually consistent layouts.  
+  ✨ Explored Tailwind CSS utility-first classes to streamline styling and improve workflow.
 
 - **📅 16 May (Fri):**  
-  📐 Practiced advanced layout design using CSS Flexbox and Grid to create responsive and flexible page structures.
+  📐 Practiced advanced layout design using CSS Flexbox and Grid to create responsive and flexible page structures.  
+  🚀 Incorporated Bootstrap classes for rapid UI development and consistent responsive behavior.
 
 - **📅 17 May (Sat):**  
-  📱 Developed a responsive personal portfolio page using media queries to ensure seamless cross-device compatibility.
+  📱 Developed a responsive personal portfolio page integrating React.js for component-based UI development.  
+  🎨 Applied CSS, Tailwind CSS utility classes, and Bootstrap framework to style and enhance responsiveness and design consistency across devices.
+
 
 
 ### 🔹 Week 2: JavaScript & DOM
