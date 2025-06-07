@@ -12,7 +12,7 @@
 - **Time Period:** 13th May 2025 – 13th June 2025  
 - **Mode:** Remote  
 - **Role:** Full Stack Web Developer Intern
-
+ 
 ---
 
 ## 📌 About This Repository
