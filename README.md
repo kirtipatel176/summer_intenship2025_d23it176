@@ -1,7 +1,7 @@
 # 🌞 Summer Internship 2025 – Full Stack Web Development
 
 > 📍 **Location:** Infoxoras Technologies Pvt. Ltd., Gandhinagar   
-> 🧑‍💻 **Internship Duration:** 13 May 2025 – 13 June 2025 (4 Weeks)  
+> 🧑‍💻 **Internship Duration:** 13 May 2025 – 13 June 2025 (4 Weeks)   
 > 🛠️ **Internship Type:** Remote – Full Stack Web Development
 
 ---
