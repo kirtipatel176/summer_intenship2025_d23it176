@@ -5,7 +5,7 @@
 > 🛠️ **Internship Type:** Remote – Full Stack Web Development
 
 ---
-
+ 
 ## 🏢 Internship Details
 - **Company:** Infoxoras Technologies Pvt. Ltd.  
 - **Location:** Gandhinagar, India  
