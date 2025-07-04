@@ -48,3 +48,4 @@ This internship focused on practical, end-to-end product development. I was trai
 **21/05/2025** – Built secure user signup and login functionality using JWT tokens and bcrypt for password hashing.
 **22/05/2025** – Created middleware for role-based route protection (user/admin) and tested it across endpoints. 
 **23/05/2025** – Developed a user dashboard that displayed personalized data. 
+**24/05/2025** – Conducted end-to-end testing of login flow, protected routes, and fixed minor UI/UX issues.
