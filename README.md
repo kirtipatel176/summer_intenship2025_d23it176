@@ -30,3 +30,9 @@ This internship focused on practical, end-to-end product development. I was trai
 | Tools       | Git, GitHub, Postman, Figma, VS Code   |
 
 ---
+## 📅 Daily Work Log
+
+### 🔹 **Week 1: MERN Setup & Foundation (13–17 May)**
+
+**13/05/2025** – Attended onboarding session with HR and mentors. Participated in the first **formal HR meeting**, where the internship structure, expectations, and weekly review process were explained.  
+**14/05/2025** – Set up the full development environment, created GitHub repository, and initialized the React project using Vite and TailwindCSS.  
