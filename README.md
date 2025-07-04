@@ -49,3 +49,9 @@ This internship focused on practical, end-to-end product development. I was trai
 **22/05/2025** – Created middleware for role-based route protection (user/admin) and tested it across endpoints. 
 **23/05/2025** – Developed a user dashboard that displayed personalized data. 
 **24/05/2025** – Conducted end-to-end testing of login flow, protected routes, and fixed minor UI/UX issues.
+
+---
+
+### 🔹 **Week 3: Admin Panel & Advanced Features (27–31 May)**
+
+**27/05/2025** – Attended the **third formal HR meeting**, where we reviewed the dashboard progress and set goals for the admin panel features.  
