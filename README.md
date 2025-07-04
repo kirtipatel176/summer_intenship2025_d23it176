@@ -60,3 +60,19 @@ This internship focused on practical, end-to-end product development. I was trai
 **29/05/2025** – Added image upload feature using Multer middleware and stored file references in MongoDB.  
 **30/05/2025** – Focused on frontend enhancements like loaders, error messages, and responsive layout for mobile devices.  
 **31/05/2025** – Refactored backend routes and frontend components for cleaner structure, preparing for final project.
+
+---
+
+### 🎯 **Week 4: Final Project – Price Comparison Website (3–13 June)**
+
+The final week was dedicated to building a real-world **Price Comparison Web App**. It enables users to search for products and compare prices across vendors. Key features include:
+
+- 🔍 Product search and category filtering  
+- 🛒 Vendor-wise price comparison table  
+- 📱 Responsive user interface  
+- 🔐 Secure backend API integration  
+- 🚀 Deployment using Vercel with version-controlled source code
+
+The project was demoed to mentors and submitted as the final deliverable of the internship.
+
+---
