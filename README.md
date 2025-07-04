@@ -36,3 +36,4 @@ This internship focused on practical, end-to-end product development. I was trai
 
 **13/05/2025** – Attended onboarding session with HR and mentors. Participated in the first **formal HR meeting**, where the internship structure, expectations, and weekly review process were explained.  
 **14/05/2025** – Set up the full development environment, created GitHub repository, and initialized the React project using Vite and TailwindCSS.  
+**15/05/2025** – Implemented routing using React Router and created base components for the UI.  
