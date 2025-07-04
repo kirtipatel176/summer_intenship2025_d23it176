@@ -54,4 +54,5 @@ This internship focused on practical, end-to-end product development. I was trai
 
 ### 🔹 **Week 3: Admin Panel & Advanced Features (27–31 May)**
 
-**27/05/2025** – Attended the **third formal HR meeting**, where we reviewed the dashboard progress and set goals for the admin panel features.  
+**27/05/2025** – Attended the **third formal HR meeting**, where we reviewed the dashboard progress and set goals for the admin panel features. 
+**28/05/2025** – Designed and implemented an Admin Dashboard layout and integrated Chart.js for displaying user metrics. 
