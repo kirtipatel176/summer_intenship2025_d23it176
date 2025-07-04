@@ -1,0 +1,145 @@
+// Prisma Schema for DealSense
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql" // or "mysql", "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id          String   @id @default(cuid())
+  email       String   @unique
+  name        String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  priceAlerts PriceAlert[]
+  favorites   UserFavorite[]
+
+  @@map("users")
+}
+
+model Platform {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  baseUrl     String
+  logoUrl     String?
+  affiliateId String?
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  
+  productPrices ProductPrice[]
+  priceHistory  PriceHistory[]
+  priceAlerts   PriceAlert[]
+
+  @@map("platforms")
+}
+
+model Product {
+  id          String   @id @default(cuid())
+  name        String
+  description String?
+  category    String
+  imageUrl    String?
+  brand       String?
+  model       String?
+  rating      Float?
+  reviewCount Int      @default(0)
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  platforms        ProductPrice[]
+  priceHistory     PriceHistory[]
+  priceAlerts      PriceAlert[]
+  favorites        UserFavorite[]
+  aiRecommendations AIRecommendation[]
+
+  @@map("products")
+}
+
+model ProductPrice {
+  id                String   @id @default(cuid())
+  productId         String
+  platformId        String
+  price             Float
+  originalPrice     Float?
+  discountPercentage Int?
+  productUrl        String
+  inStock           Boolean  @default(true)
+  lastUpdated       DateTime @default(now())
+  
+  product  Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  platform Platform @relation(fields: [platformId], references: [id], onDelete: Cascade)
+
+  @@unique([productId, platformId])
+  @@map("product_prices")
+}
+
+model PriceHistory {
+  id                String   @id @default(cuid())
+  productId         String
+  platformId        String
+  price             Float
+  originalPrice     Float?
+  discountPercentage Int?
+  inStock           Boolean  @default(true)
+  recordedAt        DateTime @default(now())
+  
+  product  Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  platform Platform @relation(fields: [platformId], references: [id], onDelete: Cascade)
+
+  @@map("price_history")
+}
+
+model PriceAlert {
+  id          String    @id @default(cuid())
+  userId      String
+  productId   String
+  platformId  String?
+  targetPrice Float
+  isActive    Boolean   @default(true)
+  createdAt   DateTime  @default(now())
+  triggeredAt DateTime?
+  lastChecked DateTime  @default(now())
+  
+  user     User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  product  Product   @relation(fields: [productId], references: [id], onDelete: Cascade)
+  platform Platform? @relation(fields: [platformId], references: [id], onDelete: Cascade)
+
+  @@map("price_alerts")
+}
+
+model UserFavorite {
+  id        String   @id @default(cuid())
+  userId    String
+  productId String
+  createdAt DateTime @default(now())
+  
+  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, productId])
+  @@map("user_favorites")
+}
+
+model AIRecommendation {
+  id                   String   @id @default(cuid())
+  productId            String
+  recommendationType   String   // 'buy_now', 'wait', 'alternative'
+  confidenceScore      Int
+  title                String
+  description          String
+  reasoning            Json
+  alternativeProducts  Json?
+  bestPlatform         String?
+  estimatedSavings     Float?
+  createdAt            DateTime @default(now())
+  expiresAt            DateTime
+  
+  product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@map("ai_recommendations")
+}
