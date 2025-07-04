@@ -76,3 +76,33 @@ The final week was dedicated to building a real-world **Price Comparison Web App
 The project was demoed to mentors and submitted as the final deliverable of the internship.
 
 ---
+## 🔗 GitHub Repository
+
+🔗 **Project Repo:** [https://github.com/your-username/price-comparison-internship](https://github.com/your-username/price-comparison-internship)
+
+---
+
+## 🏁 Internship Outcome
+
+✅ Developed a strong foundation in MERN stack  
+✅ Built real-world features like dashboards, auth, and file uploads  
+✅ Successfully completed a capstone Price Comparison Project  
+✅ Improved debugging, code structure, and team collaboration skills  
+
+---
+
+## 📜 Certificate
+
+🪪 Certificate of Completion – *available upon request or in the `/docs/` folder of the GitHub repo*
+
+---
+
+## 🙏 Acknowledgements
+
+Thanks to my mentor and the team at **Infoxoras** for their support, encouragement, and guidance throughout this internship. The learning experience was both challenging and rewarding.
+
+---
+
+
+<p align="center">Made with ❤️ during my internship at Infoxoras</p>
+
