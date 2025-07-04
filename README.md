@@ -78,7 +78,7 @@ The project was demoed to mentors and submitted as the final deliverable of the 
 ---
 ## 🔗 GitHub Repository
 
-🔗 **Project Repo:** [https://github.com/your-username/price-comparison-internship](https://github.com/your-username/price-comparison-internship)
+🔗 **Project Repo:** [https://github.com/kirtipatel176/express-crud-api-tested-with-postman.git]
 
 ---
 
