@@ -38,3 +38,4 @@ This internship focused on practical, end-to-end product development. I was trai
 **14/05/2025** – Set up the full development environment, created GitHub repository, and initialized the React project using Vite and TailwindCSS.  
 **15/05/2025** – Implemented routing using React Router and created base components for the UI.  
 **16/05/2025** – Started backend with Node.js and Express. Tested the API with simple GET routes in Postman.  
+**17/05/2025** – Integrated MongoDB with Mongoose and tested basic schema with dummy data using CRUD operations.
