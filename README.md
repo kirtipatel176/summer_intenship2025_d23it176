@@ -45,3 +45,4 @@ This internship focused on practical, end-to-end product development. I was trai
 ### 🔹 **Week 2: Backend Logic & Authentication (20–24 May)**
 
 **20/05/2025** – Participated in the **second formal HR review meeting** to share progress from Week 1. Discussed upcoming authentication tasks and received feedback on backend setup.  
+**21/05/2025** – Built secure user signup and login functionality using JWT tokens and bcrypt for password hashing.
