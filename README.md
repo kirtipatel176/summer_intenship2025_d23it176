@@ -39,3 +39,9 @@ This internship focused on practical, end-to-end product development. I was trai
 **15/05/2025** – Implemented routing using React Router and created base components for the UI.  
 **16/05/2025** – Started backend with Node.js and Express. Tested the API with simple GET routes in Postman.  
 **17/05/2025** – Integrated MongoDB with Mongoose and tested basic schema with dummy data using CRUD operations.
+
+---
+
+### 🔹 **Week 2: Backend Logic & Authentication (20–24 May)**
+
+**20/05/2025** – Participated in the **second formal HR review meeting** to share progress from Week 1. Discussed upcoming authentication tasks and received feedback on backend setup.  
