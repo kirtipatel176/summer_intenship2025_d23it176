@@ -59,3 +59,4 @@ This internship focused on practical, end-to-end product development. I was trai
 **28/05/2025** – Designed and implemented an Admin Dashboard layout and integrated Chart.js for displaying user metrics. 
 **29/05/2025** – Added image upload feature using Multer middleware and stored file references in MongoDB.  
 **30/05/2025** – Focused on frontend enhancements like loaders, error messages, and responsive layout for mobile devices.  
+**31/05/2025** – Refactored backend routes and frontend components for cleaner structure, preparing for final project.
